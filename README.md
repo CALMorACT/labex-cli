@@ -6,17 +6,8 @@ This is a command line interface for LabEx.
 
 Python 3.8 or higher is required.
 
-Clone the repository:
-
 ```bash
-git clone https://github.com/labex-labs/labex-cli.git
-```
-
-Install the package:
-
-```bash
-cd labex-cli
-pip install --editable .
+pip install git+http://github.com/labex-labs/labex-cli
 ```
 
 ## Usage

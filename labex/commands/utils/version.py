@@ -8,7 +8,8 @@ from github import Github
 class CheckUpdate:
     def __init__(self) -> None:
         # Define the path of the local repository
-        self.git_path = Path(f"{os.path.dirname(__file__)}").parent.parent.parent
+        # self.git_path = Path(f"{os.path.dirname(__file__)}").parent.parent.parent
+        self.git_path = Path(os.getcwd())
 
     def check_version(self) -> None:
         # Get the latest commit of the online repository
